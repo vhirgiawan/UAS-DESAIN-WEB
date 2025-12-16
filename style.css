@@ -142,3 +142,33 @@ body {
     align-items: center;
   }
 }
+
+.nav-links a {
+  position: relative;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 6px 4px;
+  transition: color 0.3s ease;
+}
+
+/* Garis bawah */
+.nav-links a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  width: 0;
+  height: 3px;
+  background: #fff;
+  transition: width 0.3s ease;
+}
+
+/* Hover effect */
+.nav-links a:hover {
+  color: #eaf4ff;
+}
+
+.nav-links a:hover::after {
+  width: 100%;
+}
