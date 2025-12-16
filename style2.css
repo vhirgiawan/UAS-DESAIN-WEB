@@ -1,0 +1,150 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+  background-color: #f5f5f5;
+}
+
+/* Container */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Navbar */
+.navbar {
+  background: #1e90ff;
+  padding: 1rem 0;
+  color: #fff;
+}
+
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-links .active {
+  text-decoration: underline;
+}
+
+/* Page Title */
+.page-title {
+  background: #fff;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+/* Filter */
+.filter-section {
+  background: #fff;
+  padding: 1rem;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+.filter-section select,
+.filter-section button {
+  padding: 0.6rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.filter-section button {
+  background: #1e90ff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+/* Property List */
+.property-list {
+  margin: 2rem auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1.5rem;
+}
+
+/* Card */
+.property-card {
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.property-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.property-info {
+  padding: 1rem;
+}
+
+.property-info h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+}
+
+.location {
+  color: #777;
+  font-size: 0.9rem;
+}
+
+.price {
+  color: #1e90ff;
+  font-weight: bold;
+  margin: 0.4rem 0;
+}
+
+.detail {
+  font-size: 0.9rem;
+  margin-bottom: 0.8rem;
+}
+
+.btn-detail {
+  display: inline-block;
+  padding: 0.6rem 1rem;
+  background: #1e90ff;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+/* Footer */
+.footer {
+  background: #222;
+  color: #eee;
+  text-align: center;
+  padding: 1rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .filter-section {
+    flex-direction: column;
+  }
+}

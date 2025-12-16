@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Daftar Properti</title>
+    <link rel="stylesheet" href="style2.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header class="navbar">
+      <div class="container">
+        <h1 class="logo">PropertiKu</h1>
+        <nav>
+          <ul class="nav-links">
+            <li><a href="/index.html">Beranda</a></li>
+            <li>
+              <a href="daftar-properti.html" class="active">Daftar Properti</a>
+            </li>
+            <li><a href="#">Kontak</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Page Title -->
+    <section class="page-title">
+      <div class="container">
+        <h2>Daftar Properti</h2>
+        <p>Rumah, Ruko, Hotel, dan Tanah</p>
+      </div>
+    </section>
+
+    <!-- Filter -->
+    <section class="filter-section container">
+      <select>
+        <option>Jenis Properti</option>
+        <option>Rumah</option>
+        <option>Ruko</option>
+        <option>Hotel</option>
+        <option>Tanah</option>
+      </select>
+
+      <select>
+        <option>Lokasi</option>
+        <option>Jakarta</option>
+        <option>Bandung</option>
+        <option>Surabaya</option>
+        <option>Bali</option>
+      </select>
+
+      <select>
+        <option>Harga Maks</option>
+        <option>< 1 M</option>
+        <option>< 3 M</option>
+        <option>< 5 M</option>
+      </select>
+
+      <button>Cari</button>
+    </section>
+
+    <!-- Listing -->
+    <section class="property-list container">
+      <div class="property-card">
+        <img src="house.jpg" alt="Rumah" />
+        <div class="property-info">
+          <h3>Rumah Minimalis Modern</h3>
+          <p class="location">Jakarta Selatan</p>
+          <p class="price">Rp 1.200.000.000</p>
+          <p class="detail">120 m² • 3 KT • 2 KM</p>
+          <a href="#" class="btn-detail">Lihat Detail</a>
+        </div>
+      </div>
+
+      <div class="property-card">
+        <img src="ruko.jpg" alt="Ruko" />
+        <div class="property-info">
+          <h3>Ruko Area Bisnis</h3>
+          <p class="location">Surabaya</p>
+          <p class="price">Rp 2.800.000.000</p>
+          <p class="detail">150 m² • 2 Lantai</p>
+          <a href="#" class="btn-detail">Lihat Detail</a>
+        </div>
+      </div>
+
+      <div class="property-card">
+        <img src="hotel.jpg" alt="Hotel" />
+        <div class="property-info">
+          <h3>Hotel Bintang 3</h3>
+          <p class="location">Bali</p>
+          <p class="price">Rp 8.500.000.000</p>
+          <p class="detail">20 Kamar • Operasional</p>
+          <a href="#" class="btn-detail">Lihat Detail</a>
+        </div>
+      </div>
+
+      <div class="property-card">
+        <img src="tanah.jpg" alt="Tanah" />
+        <div class="property-info">
+          <h3>Tanah Kavling</h3>
+          <p class="location">Bandung</p>
+          <p class="price">Rp 900.000.000</p>
+          <p class="detail">200 m² • SHM</p>
+          <a href="#" class="btn-detail">Lihat Detail</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>© 2025 Marketplace Properti</p>
+    </footer>
+  </body>
+</html>
