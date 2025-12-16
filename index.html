@@ -1,32 +1,84 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>BATAKO</title>
-    <link rel="/style.css" />
+    <title>Marketplace Properti</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <p>ini adalah beberapa nama ruko yang bisa di sewakan</p>
-    <li>
-      <ul>
-        beta
-      </ul>
-      <ul>
-        beta
-      </ul>
-      <ul>
-        beta
-      </ul>
-      <ul>
-        beta
-      </ul>
-    </li>
-    <p>
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste dolorum,
-      impedit architecto nam praesentium tempora quia ullam. Eaque quibusdam
-      dolore praesentium, expedita est consectetur. Ab, quam! Laudantium
-      accusantium at laborum?
-    </p>
+    <!-- Navbar -->
+    <header class="navbar">
+      <div class="container">
+        <h1 class="logo">PropertiKu</h1>
+        <nav>
+          <ul class="nav-links">
+            <li><a href="#">Beranda</a></li>
+            <li><a href="#">Daftar Properti</a></li>
+            <li><a href="#">Tentang Kami</a></li>
+            <li><a href="#">Kontak</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero / Search Section -->
+    <section class="hero">
+      <div class="hero-content container">
+        <h2>Temukan Properti Impianmu</h2>
+        <form class="search-form">
+          <input type="text" placeholder="Cari lokasi, jenis properti..." />
+          <button type="submit">Cari</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Listings -->
+    <section class="listings container">
+      <h2>Properti Terbaru</h2>
+      <div class="grid">
+        <!-- Listing Item -->
+        <div class="card">
+          <img src="house1.jpg" alt="Rumah" />
+          <div class="card-info">
+            <h3>Rumah Minimalis Modern</h3>
+            <p>Jakarta • Rp1,200,000,000</p>
+            <a href="#" class="btn">Detail</a>
+          </div>
+        </div>
+        <!-- Ulangi .card untuk tiap properti -->
+        <div class="card">
+          <img src="shop1.jpg" alt="Ruko" />
+          <div class="card-info">
+            <h3>Ruko Strategis</h3>
+            <p>Surabaya • Rp2,500,000,000</p>
+            <a href="#" class="btn">Detail</a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="hotel1.jpg" alt="Hotel" />
+          <div class="card-info">
+            <h3>Hotel Bintang 3</h3>
+            <p>Bali • Rp7,800,000,000</p>
+            <a href="#" class="btn">Detail</a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="land1.jpg" alt="Tanah" />
+          <div class="card-info">
+            <h3>Tanah Siap Bangun</h3>
+            <p>Bandung • Rp800,000,000</p>
+            <a href="#" class="btn">Detail</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <p>© 2025 Marketplace Properti</p>
+      </div>
+    </footer>
   </body>
 </html>
