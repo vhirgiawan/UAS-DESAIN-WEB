@@ -1,0 +1,45 @@
+/* Tentang Kami Page */
+.about {
+  padding: 3rem 0;
+  text-align: center;
+}
+
+.about-desc {
+  max-width: 750px;
+  margin: 0 auto 2rem;
+  color: #555;
+}
+
+.about-grid {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.about-card {
+  background: #fff;
+  padding: 1.5rem;
+  width: 280px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.about-card h3 {
+  margin-bottom: 0.5rem;
+  color: #1e90ff;
+}
+
+.about-card ul {
+  padding-left: 1.2rem;
+}
+
+.about-card li {
+  margin-bottom: 0.4rem;
+}
+
+/* Active menu */
+.nav-links a.active::after {
+  width: 100%;
+}
