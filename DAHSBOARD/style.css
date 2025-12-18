@@ -18,6 +18,11 @@ body {
   color: #fff;
 }
 
+.gambar {
+  display: flex;
+  align-items: center;
+}
+
 .navbar .container {
   display: flex;
   justify-content: space-between;
