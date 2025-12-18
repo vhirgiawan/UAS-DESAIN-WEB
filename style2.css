@@ -142,14 +142,13 @@ body {
   padding: 1rem;
 }
 
-/* Responsive */
 @media (max-width: 768px) {
   .filter-section {
     flex-direction: column;
   }
 }
 
-/* ===== NAVBAR ANIMATION ===== */
+/* NAVBAR ANIMATION */
 .nav-links a {
   position: relative;
   color: white;
