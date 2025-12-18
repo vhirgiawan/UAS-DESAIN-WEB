@@ -2,28 +2,43 @@
 <html lang="id">
   <head>
     <meta charset="UTF-8" />
-    <title>Login</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BATAKO</title>
     <link rel="stylesheet" href="/Login/CSS/style.css" />
   </head>
 
   <body>
-    <div class="container">
-      <h1>Login</h1>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <div class="logo">
+          <img src="Desain_tanpa_judul-removebg-preview.png" alt="Batako" />
+          <span>BATAKO</span>
+        </div>
 
-      <form action="/DAHSBOARD/index.html" method="get">
-        <label>Username</label><br />
-        <input type="text" name="username" required /><br />
+        <ul class="nav-menu"></ul>
+      </div>
+    </nav>
 
-        <label>Password</label><br />
-        <input type="password" name="password" required /><br />
+    <!-- Login Section -->
+    <section class="login-section">
+      <div class="login-card">
+        <h2>Masuk Akun</h2>
 
-        <button type="submit">Log in</button>
+        <form action="/DAHSBOARD/index.html" method="get">
+          <input type="text" placeholder="Username" required />
+          <input type="password" placeholder="Password" required />
 
-        <p>
-          Belum punya akun?
-          <a href="register.html">Register di sini</a>
-        </p>
-      </form>
-    </div>
+          <button type="submit" class="btn-login">
+            <a href="/DAHSBOARD/index.html">Login</a>
+          </button>
+
+          <p>
+            Belum punya akun?
+            <a href="Register.html"><u>Register</u></a>
+          </p>
+        </form>
+      </div>
+    </section>
   </body>
 </html>

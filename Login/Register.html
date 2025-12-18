@@ -2,31 +2,46 @@
 <html lang="id">
   <head>
     <meta charset="UTF-8" />
-    <title>Halaman Register</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BATAKO</title>
     <link rel="stylesheet" href="/Login/CSS/style.css" />
   </head>
 
   <body>
-    <div class="container">
-      <h1>Register</h1>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <div class="logo">
+          <img src="Desain_tanpa_judul-removebg-preview.png" alt="Batako" />
+          <span>BATAKO</span>
+        </div>
 
-      <form action="/DAHSBOARD/index.html" method="get">
-        <label>Username</label><br />
-        <input type="text" name="username" required /><br />
+        <ul class="nav-menu"></ul>
+      </div>
+    </nav>
 
-        <label>Email</label><br />
-        <input type="email" name="email" required /><br />
+    <!-- Register Section -->
+    <section class="login-section">
+      <div class="login-card">
+        <h2>Daftar Akun</h2>
 
-        <label>Password</label><br />
-        <input type="password" name="password" required /><br />
+        <form form action="/Login/index.html" method="get">
+          <input type="text" placeholder="Nama Lengkap" required />
+          <input type="text" placeholder="Username" required />
+          <input type="email" placeholder="Email" required />
+          <input type="password" placeholder="Password" required />
+          <input type="password" placeholder="Konfirmasi Password" required />
 
-        <button type="submit">Register</button>
+          <button type="submit" class="btn-Register">
+            <a href="/Login/index.html">Register</a>
+          </button>
 
-        <p>
-          Sudah punya akun?
-          <a href="index.html">Login di sini</a>
-        </p>
-      </form>
-    </div>
+          <p>
+            Sudah punya akun?
+            <a href="/Login/index.html"><u>Login di sini</u></a>
+          </p>
+        </form>
+      </div>
+    </section>
   </body>
 </html>

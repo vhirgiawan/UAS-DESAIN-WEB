@@ -3,10 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <link
       rel="icon"
       href="/DAHSBOARD/Desain_tanpa_judul-removebg-preview.png"
     />
+
     <title>Marketplace Properti</title>
     <link rel="stylesheet" href="style.css" />
   </head>
@@ -14,23 +16,30 @@
     <!-- Navbar -->
     <header class="navbar">
       <div class="container">
-        <img
-          class="gambar"
-          src="/DAHSBOARD/Desain_tanpa_judul-removebg-preview.png"
-          alt="logo batako"
-        />
-        <h1>BATAKO</h1>
+        <!-- Brand -->
+        <div class="brand">
+          <img
+            src="/DAHSBOARD/Desain_tanpa_judul-removebg-preview.png"
+            alt="Logo Batako"
+            class="brand-logo"
+          />
+          <span class="brand-name">BATAKO</span>
+        </div>
+
+        <!-- Navigation -->
         <nav>
           <ul class="nav-links">
             <li><a href="#">Beranda</a></li>
             <li><a href="/PAGE2/index2.html">Daftar Properti</a></li>
-            <li><a href="index3.html">Tentang Kami</a></li>
+            <li><a href="/PAGE3/index3.html">Tentang Kami</a></li>
             <li><a href="/PAGE4/index contact.html">Kontak</a></li>
+            <li><a href="/Login/index.html">Keluar</a></li>
           </ul>
         </nav>
       </div>
     </header>
 
+    <!-- Hero -->
     <section class="hero">
       <div class="hero-content container">
         <h2>Temukan Properti Impianmu</h2>
@@ -45,13 +54,12 @@
     <section class="listings container">
       <h2>Properti Terbaru</h2>
       <div class="grid">
-        <!-- Listing Item -->
         <div class="card">
           <img src="2.-Rumah-Minimalis-Modern-1-Lantai.jpg" alt="Rumah" />
           <div class="card-info">
             <h3>Rumah Minimalis Modern</h3>
             <p>Jakarta • Rp1,200,000,000</p>
-            <a href="#" class="btn">Detail</a>
+            <a href="/PAGE DETAIL/rumahminimalis.html" class="btn">Detail</a>
           </div>
         </div>
 
@@ -60,25 +68,67 @@
           <div class="card-info">
             <h3>Ruko Strategis</h3>
             <p>Surabaya • Rp2,500,000,000</p>
-            <a href="#" class="btn">Detail</a>
+            <a href="/PAGE DETAIL/RukoStrategis.html" class="btn">Detail</a>
           </div>
         </div>
+
         <div class="card">
           <img src="Hotel Bintang 3.jpg" alt="Hotel" />
           <div class="card-info">
             <h3>Hotel Bintang 3</h3>
             <p>Bali • Rp7,800,000,000</p>
-            <a href="#" class="btn">Detail</a>
+            <a href="/PAGE DETAIL/HotelBintang3.html" class="btn">Detail</a>
           </div>
         </div>
+
         <div class="card">
           <img src="Tanah Siap Bangun.jpg" alt="Tanah" />
           <div class="card-info">
             <h3>Tanah Siap Bangun</h3>
-            <p>
-              Bandung • Rp800,000,00
-              <a href="#" class="btn">Detail</a>
-            </p>
+            <p>Bandung • Rp800,000,000</p>
+            <a href="/PAGE DETAIL/TanahSiapBangun.html" class="btn">Detail</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="Rumah-Klasik-2-Lantai.jpg" alt="Rumah Klasik" />
+          <div class="card-info">
+            <h3>Rumah Klasik 2 Lantai</h3>
+            <p>Depok • Rp1,750,000,000</p>
+            <a href="/PAGE DETAIL/RumahKlasik-2-Lantai.html" class="btn"
+              >Detail</a
+            >
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="Ruko-Pusat-Kota.jpg" alt="Ruko Pusat Kota" />
+          <div class="card-info">
+            <h3>Ruko Pusat Kota</h3>
+            <p>Bekasi • Rp3,200,000,000</p>
+            <a href="/PAGE DETAIL/RukoPusatKota.html" class="btn">Detail</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="Hotel-Resort.jpg" alt="Hotel Resort" />
+          <div class="card-info">
+            <h3>Hotel Resort Eksklusif</h3>
+            <p>Lombok • Rp12,500,000,000</p>
+            <a href="/PAGE DETAIL/HotelResortEksklusif.html" class="btn"
+              >Detail</a
+            >
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="Tanah-Pinggir-Jalan.jgp.jpg" alt="Tanah Pinggir Jalan" />
+          <div class="card-info">
+            <h3>Tanah Pinggir Jalan Utama</h3>
+            <p>Yogyakarta • Rp950,000,000</p>
+            <a href="/PAGE DETAIL/TanahPinggirJalanUtama.html" class="btn"
+              >Detail</a
+            >
           </div>
         </div>
       </div>
